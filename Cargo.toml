@@ -1,0 +1,17 @@
+[package]
+name = "prepper"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+ethers-core = "0.5.4"
+ethers-signers = "0.5.4"
+ethers = { version = "0.5.4", features = ["ws", "rustls"] }
+anyhow = "1.0.45"
+tokio = { version = "1.13.0", features = ["full"] }
+hex = "0.4.3"
+rand = "0.8.4"
+serde_json = { version = "1.0", default-features = true }
+serde = "1.0.130"
+thread = "0.1.0"
+message-io = { version = "0.14", default-features = true }

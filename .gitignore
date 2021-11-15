@@ -1,0 +1,10 @@
+/target
+.DS_Store
+*bak*
+*-*-*-*-*
+.env
+node_modules
+info.py
+package-lock.json
+cache
+hardhat.config.js
