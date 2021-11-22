@@ -2,6 +2,8 @@
 
 > "Approve USDC when the base fee is < 10 gwei"
 
+> "Buy ETH with USDC when price < 1.25"
+
 🐮 Prepper allows you to schedule transactions to be trigged in the future based on specific condtions.
 
 Currently the only condition that prepper looks for is `base_fee_per_gas` but this will be extended in the future.
